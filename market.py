@@ -19,7 +19,11 @@ def request(target):
 
 items_url_json = request("items").json()
 
-list = ["LOOTER", "DETECT", "VULNERABILITY", "REAWAKEN", "NEGATE", "AMBUSH", "ENERGY GENERATOR", "BOTANIST"]
+list = []
+file = open("CephalonSimaris75.txt", "r")
+list = file.read().split(", ")
+
+
 for i in range(len(list)):
     list[i] = list[i].lower()
     list[i] = list[i].title()
@@ -37,13 +41,14 @@ for name in items_url_json['payload']['items']:
             time.sleep(0.35)
             item_url_json = request("items/" +name["url_name"]+"/statistics").json()
             for record in item_url_json['payload']['statistics_closed']['48hours']:
-                if record["mod_rank"] == 0:
+                if "mod_rank" not in record or record["mod_rank"] == 0:
                     avg += record["median"]
                     sold_volume += record["volume"]
                     if price_min > record["median"]:
                         price_min = record["median"]
-                    if price_max < record["median"]:
-                        price_max = record["median"]
+                        if price_max < record["median"]:
+                            price_max = record["median"]
+
             print(list_name)
             print("Sold: " + str(sold_volume))
             if sold_volume > 0:
