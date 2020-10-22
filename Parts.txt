@@ -1,1 +1,19 @@
-Akjagara Prime Link, Atlas Prime, Bruston Prime Barrel, Bruston Prime Blueprint, Corinth Prime Stock, Dethcube Prime Blueprint, Dethcube Prime systems, Ember Prime systems, Equinox Prime Chassis, Inaros Prime Systems, Lex Prime, Mesa Prime Blueprint, Nikondi Prime Chain, Nova Prime Neuroptics, Redeemer Prime Blueprint, Stradavar Prime Barrel, Stradavar Prime Stock, Tipedo Prime Blueprint, Titania Prime Blueprint, END
+Akjagara Prime Link
+Atlas Prime
+Bruston Prime Barrel
+Bruston Prime Blueprint
+Corinth Prime Stock
+Dethcube Prime Blueprint
+Dethcube Prime systems
+Ember Prime systems
+Equinox Prime Chassis
+Inaros Prime Systems
+Lex Prime
+Mesa Prime Blueprint
+Nikondi Prime Chain
+Nova Prime Neuroptics
+Redeemer Prime Blueprint
+Stradavar Prime Barrel
+Stradavar Prime Stock
+Tipedo Prime Blueprint
+Titania Prime Blueprint

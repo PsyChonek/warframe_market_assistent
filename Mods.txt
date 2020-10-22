@@ -1,1 +1,11 @@
-Arrow Mutation, Cold Snap, Combustion Beam, Hells Chamber, Intensify, Maiming Strike, Pistol Ammo Mutation, Pressurized Magazine, reflect, reflex Guard, Stalk, END
+Arrow Mutation
+Cold Snap
+Combustion Beam
+Hells Chamber
+Intensify
+Maiming Strike
+Pistol Ammo Mutation
+Pressurized Magazine
+reflect
+reflex Guard
+Stalk
